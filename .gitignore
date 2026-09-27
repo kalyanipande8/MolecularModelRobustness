@@ -1,0 +1,8 @@
+data/
+models/
+output/eval_matrix.csv
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/

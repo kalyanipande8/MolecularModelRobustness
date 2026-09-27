@@ -1,0 +1,270 @@
+{
+  "findings": {
+    "overall_pass_rate": 0.968421052631579,
+    "n_evaluations": 1140,
+    "best_architecture": {
+      "architecture": "arch_02",
+      "arch_name": "logreg_l2_C10",
+      "accuracy": 0.9506736842105262
+    },
+    "worst_architecture": {
+      "architecture": "arch_07",
+      "arch_name": "rf_shallow_n20",
+      "accuracy": 0.7658421052631579
+    },
+    "robustness_by_architecture": [
+      {
+        "architecture": "arch_02",
+        "arch_name": "logreg_l2_C10",
+        "accuracy": 0.9506736842105262
+      },
+      {
+        "architecture": "arch_03",
+        "arch_name": "mlp_shallow_16",
+        "accuracy": 0.9485157894736842
+      },
+      {
+        "architecture": "arch_05",
+        "arch_name": "mlp_wide_high_reg",
+        "accuracy": 0.9463894736842104
+      },
+      {
+        "architecture": "arch_04",
+        "arch_name": "mlp_deep_64x32x16",
+        "accuracy": 0.926178947368421
+      },
+      {
+        "architecture": "arch_01",
+        "arch_name": "logreg_l2_C0.1",
+        "accuracy": 0.9220736842105263
+      },
+      {
+        "architecture": "arch_09",
+        "arch_name": "gboost_default",
+        "accuracy": 0.884578947368421
+      },
+      {
+        "architecture": "arch_06",
+        "arch_name": "mlp_32x16_starved25pct",
+        "accuracy": 0.8795263157894737
+      },
+      {
+        "architecture": "arch_12",
+        "arch_name": "svm_rbf",
+        "accuracy": 0.8409578947368421
+      },
+      {
+        "architecture": "arch_08",
+        "arch_name": "rf_deep_n150",
+        "accuracy": 0.8359684210526316
+      },
+      {
+        "architecture": "arch_10",
+        "arch_name": "extratrees_default",
+        "accuracy": 0.8318105263157896
+      },
+      {
+        "architecture": "arch_11",
+        "arch_name": "decisiontree_depth4",
+        "accuracy": 0.8066315789473684
+      },
+      {
+        "architecture": "arch_07",
+        "arch_name": "rf_shallow_n20",
+        "accuracy": 0.7658421052631579
+      }
+    ],
+    "failure_rate_by_category": {
+      "adversarial_perturbation": 0.011111111111111072,
+      "class_imbalance": 0.0,
+      "extrapolation": 0.10416666666666663,
+      "measurement_noise": 0.03409090909090906,
+      "scaffold_shift": 0.0,
+      "sparse_descriptors": 0.078125
+    },
+    "arch_by_category_matrix": {
+      "adversarial_perturbation": {
+        "decisiontree_depth4": 0.961,
+        "extratrees_default": 0.966,
+        "gboost_default": 0.981,
+        "logreg_l2_C0.1": 0.989,
+        "logreg_l2_C10": 0.994,
+        "mlp_32x16_starved25pct": 0.98,
+        "mlp_deep_64x32x16": 0.989,
+        "mlp_shallow_16": 0.993,
+        "mlp_wide_high_reg": 0.993,
+        "rf_deep_n150": 0.97,
+        "rf_shallow_n20": 0.954,
+        "svm_rbf": 0.892
+      },
+      "class_imbalance": {
+        "decisiontree_depth4": 0.807,
+        "extratrees_default": 0.877,
+        "gboost_default": 0.915,
+        "logreg_l2_C0.1": 0.95,
+        "logreg_l2_C10": 0.977,
+        "mlp_32x16_starved25pct": 0.877,
+        "mlp_deep_64x32x16": 0.959,
+        "mlp_shallow_16": 0.978,
+        "mlp_wide_high_reg": 0.966,
+        "rf_deep_n150": 0.883,
+        "rf_shallow_n20": 0.814,
+        "svm_rbf": 0.942
+      },
+      "extrapolation": {
+        "decisiontree_depth4": 0.676,
+        "extratrees_default": 0.744,
+        "gboost_default": 0.758,
+        "logreg_l2_C0.1": 0.808,
+        "logreg_l2_C10": 0.819,
+        "mlp_32x16_starved25pct": 0.803,
+        "mlp_deep_64x32x16": 0.826,
+        "mlp_shallow_16": 0.845,
+        "mlp_wide_high_reg": 0.834,
+        "rf_deep_n150": 0.74,
+        "rf_shallow_n20": 0.701,
+        "svm_rbf": 0.552
+      },
+      "measurement_noise": {
+        "decisiontree_depth4": 0.762,
+        "extratrees_default": 0.795,
+        "gboost_default": 0.847,
+        "logreg_l2_C0.1": 0.895,
+        "logreg_l2_C10": 0.928,
+        "mlp_32x16_starved25pct": 0.839,
+        "mlp_deep_64x32x16": 0.899,
+        "mlp_shallow_16": 0.931,
+        "mlp_wide_high_reg": 0.933,
+        "rf_deep_n150": 0.805,
+        "rf_shallow_n20": 0.762,
+        "svm_rbf": 0.735
+      },
+      "scaffold_shift": {
+        "decisiontree_depth4": 0.807,
+        "extratrees_default": 0.838,
+        "gboost_default": 0.89,
+        "logreg_l2_C0.1": 0.926,
+        "logreg_l2_C10": 0.962,
+        "mlp_32x16_starved25pct": 0.886,
+        "mlp_deep_64x32x16": 0.927,
+        "mlp_shallow_16": 0.964,
+        "mlp_wide_high_reg": 0.953,
+        "rf_deep_n150": 0.852,
+        "rf_shallow_n20": 0.767,
+        "svm_rbf": 0.924
+      },
+      "sparse_descriptors": {
+        "decisiontree_depth4": 0.788,
+        "extratrees_default": 0.752,
+        "gboost_default": 0.876,
+        "logreg_l2_C0.1": 0.924,
+        "logreg_l2_C10": 0.97,
+        "mlp_32x16_starved25pct": 0.874,
+        "mlp_deep_64x32x16": 0.925,
+        "mlp_shallow_16": 0.937,
+        "mlp_wide_high_reg": 0.952,
+        "rf_deep_n150": 0.74,
+        "rf_shallow_n20": 0.583,
+        "svm_rbf": 0.891
+      }
+    },
+    "worst_category": "extrapolation",
+    "most_noise_sensitive_arch": "svm_rbf",
+    "most_noise_sensitive_arch_acc": 0.7350909090909091,
+    "most_scaffold_shift_sensitive_arch": "rf_shallow_n20",
+    "most_scaffold_shift_sensitive_arch_acc": 0.7673,
+    "most_sparse_sensitive_arch": "rf_shallow_n20",
+    "most_sparse_sensitive_arch_acc": 0.58325,
+    "generalization_gaps": [
+      {
+        "arch_name": "extratrees_default",
+        "train_accuracy": 1.0,
+        "accuracy": 0.8318105263157896,
+        "generalization_gap": 0.16818947368421044
+      },
+      {
+        "arch_name": "rf_deep_n150",
+        "train_accuracy": 1.0,
+        "accuracy": 0.8359684210526316,
+        "generalization_gap": 0.16403157894736842
+      },
+      {
+        "arch_name": "svm_rbf",
+        "train_accuracy": 0.9925,
+        "accuracy": 0.8409578947368421,
+        "generalization_gap": 0.15154210526315792
+      },
+      {
+        "arch_name": "mlp_32x16_starved25pct",
+        "train_accuracy": 1.0,
+        "accuracy": 0.8795263157894737,
+        "generalization_gap": 0.12047368421052629
+      },
+      {
+        "arch_name": "gboost_default",
+        "train_accuracy": 0.985,
+        "accuracy": 0.884578947368421,
+        "generalization_gap": 0.10042105263157897
+      },
+      {
+        "arch_name": "mlp_deep_64x32x16",
+        "train_accuracy": 1.0,
+        "accuracy": 0.926178947368421,
+        "generalization_gap": 0.07382105263157901
+      },
+      {
+        "arch_name": "mlp_shallow_16",
+        "train_accuracy": 1.0,
+        "accuracy": 0.9485157894736842,
+        "generalization_gap": 0.0514842105263158
+      },
+      {
+        "arch_name": "mlp_wide_high_reg",
+        "train_accuracy": 0.995,
+        "accuracy": 0.9463894736842104,
+        "generalization_gap": 0.04861052631578955
+      },
+      {
+        "arch_name": "rf_shallow_n20",
+        "train_accuracy": 0.8135,
+        "accuracy": 0.7658421052631579,
+        "generalization_gap": 0.04765789473684212
+      },
+      {
+        "arch_name": "logreg_l2_C0.1",
+        "train_accuracy": 0.966,
+        "accuracy": 0.9220736842105263,
+        "generalization_gap": 0.0439263157894737
+      },
+      {
+        "arch_name": "decisiontree_depth4",
+        "train_accuracy": 0.8355,
+        "accuracy": 0.8066315789473684,
+        "generalization_gap": 0.028868421052631654
+      },
+      {
+        "arch_name": "logreg_l2_C10",
+        "train_accuracy": 0.969,
+        "accuracy": 0.9506736842105262,
+        "generalization_gap": 0.018326315789473746
+      }
+    ]
+  },
+  "proposals": [
+    {
+      "target": "svm_rbf",
+      "weakness": "measurement_noise",
+      "solution": "Add input-noise-robust regularization: increase L2 alpha and/or wrap features in a light Gaussian-noise-augmented training scheme (train on X + small-sigma noise draws so the decision boundary is not fit to noise-sensitive local structure)."
+    },
+    {
+      "target": "rf_shallow_n20",
+      "weakness": "scaffold_shift",
+      "solution": "Use an averaging/ensemble scheme across multiple differently-regularized or differently-trained architectures -- ensembling reduces variance from any single model's tight fit to the training chemical-space distribution and improves robustness to shifted test distributions."
+    },
+    {
+      "target": "rf_shallow_n20",
+      "weakness": "sparse_descriptors",
+      "solution": "Add explicit missing-value-indicator features (one extra binary column per descriptor marking mean-imputed values) so the model can learn to discount imputed descriptors instead of treating them as real measurements."
+    }
+  ]
+}

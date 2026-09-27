@@ -1,0 +1,317 @@
+{
+  "target_categories": [
+    "extrapolation",
+    "measurement_noise"
+  ],
+  "baseline_architecture": "arch_12",
+  "before_mean_accuracy": 0.6862666666666666,
+  "after_mean_accuracy": 0.9092,
+  "improvement": 0.22293333333333343,
+  "ensemble_member_logreg_l2_C10_mean_accuracy": 0.8989999999999999,
+  "ensemble_member_mlp_shallow_16_mean_accuracy": 0.9084,
+  "before_per_condition": [
+    {
+      "condition": "noise_sigma_0.05",
+      "category": "measurement_noise",
+      "accuracy": 0.94
+    },
+    {
+      "condition": "noise_sigma_0.19",
+      "category": "measurement_noise",
+      "accuracy": 0.934
+    },
+    {
+      "condition": "noise_sigma_0.33",
+      "category": "measurement_noise",
+      "accuracy": 0.922
+    },
+    {
+      "condition": "noise_sigma_0.47",
+      "category": "measurement_noise",
+      "accuracy": 0.936
+    },
+    {
+      "condition": "noise_sigma_0.61",
+      "category": "measurement_noise",
+      "accuracy": 0.91
+    },
+    {
+      "condition": "noise_sigma_0.75",
+      "category": "measurement_noise",
+      "accuracy": 0.924
+    },
+    {
+      "condition": "noise_sigma_0.89",
+      "category": "measurement_noise",
+      "accuracy": 0.896
+    },
+    {
+      "condition": "noise_sigma_1.03",
+      "category": "measurement_noise",
+      "accuracy": 0.892
+    },
+    {
+      "condition": "noise_sigma_1.17",
+      "category": "measurement_noise",
+      "accuracy": 0.888
+    },
+    {
+      "condition": "noise_sigma_1.31",
+      "category": "measurement_noise",
+      "accuracy": 0.836
+    },
+    {
+      "condition": "noise_sigma_1.45",
+      "category": "measurement_noise",
+      "accuracy": 0.808
+    },
+    {
+      "condition": "noise_sigma_1.60",
+      "category": "measurement_noise",
+      "accuracy": 0.716
+    },
+    {
+      "condition": "noise_sigma_1.74",
+      "category": "measurement_noise",
+      "accuracy": 0.668
+    },
+    {
+      "condition": "noise_sigma_1.88",
+      "category": "measurement_noise",
+      "accuracy": 0.628
+    },
+    {
+      "condition": "noise_sigma_2.02",
+      "category": "measurement_noise",
+      "accuracy": 0.602
+    },
+    {
+      "condition": "noise_sigma_2.16",
+      "category": "measurement_noise",
+      "accuracy": 0.54
+    },
+    {
+      "condition": "noise_sigma_2.30",
+      "category": "measurement_noise",
+      "accuracy": 0.528
+    },
+    {
+      "condition": "noise_sigma_2.44",
+      "category": "measurement_noise",
+      "accuracy": 0.504
+    },
+    {
+      "condition": "noise_sigma_2.58",
+      "category": "measurement_noise",
+      "accuracy": 0.516
+    },
+    {
+      "condition": "noise_sigma_2.72",
+      "category": "measurement_noise",
+      "accuracy": 0.542
+    },
+    {
+      "condition": "noise_sigma_2.86",
+      "category": "measurement_noise",
+      "accuracy": 0.528
+    },
+    {
+      "condition": "noise_sigma_3.00",
+      "category": "measurement_noise",
+      "accuracy": 0.514
+    },
+    {
+      "condition": "extrapolation_scale_3.00",
+      "category": "extrapolation",
+      "accuracy": 0.74
+    },
+    {
+      "condition": "extrapolation_scale_4.00",
+      "category": "extrapolation",
+      "accuracy": 0.586
+    },
+    {
+      "condition": "extrapolation_scale_5.00",
+      "category": "extrapolation",
+      "accuracy": 0.534
+    },
+    {
+      "condition": "extrapolation_scale_6.00",
+      "category": "extrapolation",
+      "accuracy": 0.518
+    },
+    {
+      "condition": "extrapolation_scale_7.00",
+      "category": "extrapolation",
+      "accuracy": 0.514
+    },
+    {
+      "condition": "extrapolation_scale_8.00",
+      "category": "extrapolation",
+      "accuracy": 0.508
+    },
+    {
+      "condition": "extrapolation_scale_9.00",
+      "category": "extrapolation",
+      "accuracy": 0.508
+    },
+    {
+      "condition": "extrapolation_scale_10.00",
+      "category": "extrapolation",
+      "accuracy": 0.508
+    }
+  ],
+  "after_per_condition": [
+    {
+      "condition": "noise_sigma_0.05",
+      "category": "measurement_noise",
+      "accuracy": 0.964
+    },
+    {
+      "condition": "noise_sigma_0.19",
+      "category": "measurement_noise",
+      "accuracy": 0.98
+    },
+    {
+      "condition": "noise_sigma_0.33",
+      "category": "measurement_noise",
+      "accuracy": 0.954
+    },
+    {
+      "condition": "noise_sigma_0.47",
+      "category": "measurement_noise",
+      "accuracy": 0.964
+    },
+    {
+      "condition": "noise_sigma_0.61",
+      "category": "measurement_noise",
+      "accuracy": 0.964
+    },
+    {
+      "condition": "noise_sigma_0.75",
+      "category": "measurement_noise",
+      "accuracy": 0.956
+    },
+    {
+      "condition": "noise_sigma_0.89",
+      "category": "measurement_noise",
+      "accuracy": 0.966
+    },
+    {
+      "condition": "noise_sigma_1.03",
+      "category": "measurement_noise",
+      "accuracy": 0.946
+    },
+    {
+      "condition": "noise_sigma_1.17",
+      "category": "measurement_noise",
+      "accuracy": 0.944
+    },
+    {
+      "condition": "noise_sigma_1.31",
+      "category": "measurement_noise",
+      "accuracy": 0.958
+    },
+    {
+      "condition": "noise_sigma_1.45",
+      "category": "measurement_noise",
+      "accuracy": 0.946
+    },
+    {
+      "condition": "noise_sigma_1.60",
+      "category": "measurement_noise",
+      "accuracy": 0.922
+    },
+    {
+      "condition": "noise_sigma_1.74",
+      "category": "measurement_noise",
+      "accuracy": 0.932
+    },
+    {
+      "condition": "noise_sigma_1.88",
+      "category": "measurement_noise",
+      "accuracy": 0.94
+    },
+    {
+      "condition": "noise_sigma_2.02",
+      "category": "measurement_noise",
+      "accuracy": 0.932
+    },
+    {
+      "condition": "noise_sigma_2.16",
+      "category": "measurement_noise",
+      "accuracy": 0.92
+    },
+    {
+      "condition": "noise_sigma_2.30",
+      "category": "measurement_noise",
+      "accuracy": 0.938
+    },
+    {
+      "condition": "noise_sigma_2.44",
+      "category": "measurement_noise",
+      "accuracy": 0.888
+    },
+    {
+      "condition": "noise_sigma_2.58",
+      "category": "measurement_noise",
+      "accuracy": 0.91
+    },
+    {
+      "condition": "noise_sigma_2.72",
+      "category": "measurement_noise",
+      "accuracy": 0.886
+    },
+    {
+      "condition": "noise_sigma_2.86",
+      "category": "measurement_noise",
+      "accuracy": 0.906
+    },
+    {
+      "condition": "noise_sigma_3.00",
+      "category": "measurement_noise",
+      "accuracy": 0.902
+    },
+    {
+      "condition": "extrapolation_scale_3.00",
+      "category": "extrapolation",
+      "accuracy": 0.91
+    },
+    {
+      "condition": "extrapolation_scale_4.00",
+      "category": "extrapolation",
+      "accuracy": 0.878
+    },
+    {
+      "condition": "extrapolation_scale_5.00",
+      "category": "extrapolation",
+      "accuracy": 0.862
+    },
+    {
+      "condition": "extrapolation_scale_6.00",
+      "category": "extrapolation",
+      "accuracy": 0.83
+    },
+    {
+      "condition": "extrapolation_scale_7.00",
+      "category": "extrapolation",
+      "accuracy": 0.812
+    },
+    {
+      "condition": "extrapolation_scale_8.00",
+      "category": "extrapolation",
+      "accuracy": 0.794
+    },
+    {
+      "condition": "extrapolation_scale_9.00",
+      "category": "extrapolation",
+      "accuracy": 0.79
+    },
+    {
+      "condition": "extrapolation_scale_10.00",
+      "category": "extrapolation",
+      "accuracy": 0.782
+    }
+  ],
+  "genuinely_improved": true
+}
